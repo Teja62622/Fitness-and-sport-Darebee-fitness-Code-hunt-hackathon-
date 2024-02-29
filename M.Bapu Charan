@@ -1,0 +1,1069 @@
+***START PAGE HTML AND CSS:-***
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fitness Home</title>
+  <link rel="icon" href="Darebee1.webp">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: inline;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 15px 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px 0;
+}
+.b-img{
+  background-size: cover;
+}
+
+.hero {
+  background-image: url('Darebee3.jpg'); 
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h2 {
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ff6347;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+
+}
+
+.btn:hover {
+  background-color: #e74c3c;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.color{
+    color:white;
+    text-shadow: 1px 1px 1px rgba(0, 0,0,0.5);
+    font-weight: bold;
+    padding:auto 20px;
+
+}
+div ul li{
+    list-style-type: square;
+    display: inline;
+}
+.item{
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    display: inline;
+    vertical-align:sub;
+}
+span{
+    font-size: 60px;
+    margin-left:10px;
+    margin-top: 20px;
+}
+.dar{
+    background-color: #e74c3c;
+}
+.opa{
+    
+    border-radius: 25px;
+    width:30%;
+    margin-left:530px;
+    background-color:rgba(0, 0,0,0.5);
+    padding-bottom:5px;
+    align-items: center;
+    vertical-align: bottom;
+}
+p a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+p a:hover{
+    text-decoration: underline;
+}
+
+li{
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: space-between;
+}
+li a{
+    color:white;
+    text-decoration: none;
+}
+li a:hover{
+    text-decoration: underline;
+}
+header .item{
+  display: flex;
+}
+  </style>
+</head>
+<body>
+  <header>
+        <div class="item"><img src="Darebee1.webp" height="100px" width="100px" id="b-image">&emsp;<span>Welcome to <span class="dar">DAREBEE</span> FitnessHub</span></div> 
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="opa">
+        <h2 class="color">Your Fitness Journey Starts Here</h2>
+        <p class="color">Join us to achieve your fitness goals!</p>
+        <a href="CG.html" class="btn" target="_self">Get Started</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container" style="color: white;">
+        <h2>About Us</h2>
+        <p>Information about FitnessHub...</p>
+      </div>
+    </section>
+
+
+  </main>
+
+  <footer>
+    <p>
+        DAREBEE is a non-profit free, ad-free and product placement free global fitness resource. DAREBEE is supported exclusively via user donations.
+
+© 2012 - 2023 DAREBEE | All Rights Reserved. This website uses Cookies. <a href="https://darebee.com/disclaimer.html">Disclaimer</a> & &#128274;<a href="https://darebee.com/privacy">&nbsp;Privacy Policy</a>. All of the materials on this website are unique, copyrighted and are exclusive to darebee.com.
+    </p>
+    <section>
+    <h2>To Contact us </h2>
+    <p>Use the email below to contact the DAREBEE development team. It's a group mailbox that is accessed by the core team.</p>
+    <p>&#x1F4E7;<a href="mailto:team@darebee.com">&nbsp;team@darebee.com</a></p>
+    <p>&phone;&nbsp;Mobilenum:  081-2343-2348</p>
+    </section>
+    <h2>Follow Us On</h2>
+    <ul>
+        <li><a href="">Instagram</a></li>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <li><a href="">Facebook</a></li>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <li><a href="">Twitter</a></li>
+    </ul>
+    <p align="left">All Content,All Rights,Copyright © Darebee FitnessHub 2023</p>
+  </footer>
+</body>
+</html>
+
+
+***HOME PAGE HTML AND CSS:-***
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fitness Tracker & Workout Planner</title>
+    <link rel="stylesheet" href="CG.css">
+    <link rel="icon" href="Darebee1.webp">
+</head>
+
+<body>
+    <header>
+        <div class="flex-container">
+        <div class="flex-items"><img src="Darebee2.png" ></div>
+        <div class="flex-items">
+        <nav>
+            <ul align="center">
+                <li><a href="Start.html">Home</a></li>
+                <li><a href="Track.html">Tracker</a></li>
+                <li><a href="https://darebee.com/workouts.html">Workouts</a></li>
+                <li><a href="https://darebee.com/contact.html">Contact</a></li>
+                <li><a href="Signup.html">Sign Up</a></li>
+                <li><a href="Login.html">Log In</a></li>
+            </ul>
+        </nav>
+        </div>
+        </div>
+    </header>
+    <div>
+    <main>
+        <section id="home">
+            <h1>Welcome to the Fitness Trackering & Workout Planner!</h1>
+            <p>Track your progress and plan your workouts with our app.</p>
+        </section>
+
+        <section id="tracker">
+            <h2>Fitness</h2>
+            <p>Physical fitness is a state of health and well-being and, more specifically, the ability to perform aspects of sports, occupations and daily activities. Physical fitness is generally achieved through proper nutrition, moderate-vigorous physical exercise, and sufficient rest along with a formal recovery plan.</p>
+        </section>
+
+        <section id="workouts">
+            <h2>Workout Planner</h2>
+            <p style="width: 60%;">Fitness training balances five elements of good health. Make sure your routine includes aerobic fitness, strength training, core exercises, balance training, and flexibility and stretching With benefits such as better quality sleep, a boost in brainpower, and increased levels of happiness, it's no wonder why exercise is such an important part of your daily routine. The fact that you're getting up and out is a win in itself, but science and experts agree: There are loads of benefits to diversifying your workout plan, including avoiding injury.
+
+            </p>
+        </section>
+
+        <section id="contact">
+            <h2>About Us</h2>
+            <p>We are an award-winning resource for reliable and up-to-date information on all nutrition and exercise topics that matter to your health and vitality. For more than 20 years, we’ve worked hard to create and refine our 6,200+ library of curated, comprehensive, fact-checked information.</p>
+        </section>
+    </div>
+    </main>
+
+    <footer>
+        <span>&copy; 2023 Darebee FitnessHub</span>
+    </footer>
+</body>
+</html>
+
+html, body, ul, ol, li, h1, h2, h3, p, div, header, footer, nav, main, section {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.6;
+    color: white;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding-bottom: 10px;
+    padding-top:5px ;
+}
+.flex-container{
+    display: inline;
+}
+.flex-items{
+    display:inline-flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    vertical-align: middle;
+    margin-top: 2px;
+}
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline 2px dotted white;
+}
+main {
+    padding: 20px;
+    background-image: url('Ganesh_Bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+p{
+    width: 60%;
+    font-style: italic;
+}
+img{
+    padding: 0;
+    height: 80px;
+}
+
+
+SIGN UP PAGE HTML AND CSS:-
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="Style2.css">
+    <link rel="icon" href="Darebee1.webp">
+    <style>
+        body{
+            background-image: url('GYM9.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+    <h1 align="center"><u>SIGN UP</u></h1>
+    </header>
+<form method="post" action="P_Details.html">
+    <div class="form">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter Your Full Name" required>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="example@mail" required>
+        <label for="mobilenum">Enter Your Mobile Number:</label>
+        <input type="number" name="mobilenum" id="num" placeholder="+91 xxxxx xxxxx" required>
+        <label for="userName">Set UserName:</label>
+        <input type="text" name="userName" id="userName" placeholder="UserName" required>
+        <label for="password">Set Your Password:</label>
+        <input type="password" name="password" id="pwd" placeholder="password" required>
+        <label for="pwd">Confirm Your Password:</label>
+        <input type="password" name="pwd" id="conpwd" placeholder="Confirm Your Password" required>
+        <button type="submit">Sign Up</button>
+        <p color="white" size="5px">Already have an account? Click here <a href="Login.html" target="_self">Log In</a></p>
+    </div>
+</form>
+</body>
+</html>
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    text-decoration: underline ;
+}
+.form{
+background-color:rgba(192,192,192,0.3);
+text-align: center;
+margin:10px 400px 0 400px;
+color:white;
+border: 2px solid #301934;
+font-size: large;
+border-radius:50px;
+padding: 20px 20px;
+} 
+label{
+color:black;
+display: block;
+font-weight: bold;
+margin-top: 10px;
+margin-bottom: 5px;
+text-align: left;
+padding-left:  64px;
+}
+input{
+display: block;
+font-size: 15px;
+width: 80%;
+margin: auto;
+margin-bottom: 20px;
+}
+button{
+background-color: black;
+color: white;
+font-size: 25px;
+margin-top: 25px;
+margin-bottom: 10px;
+border: 2px solid #505050;
+border-radius: 100px;
+padding:3px;
+width:15%;
+}
+button:hover{
+background-color: #6ba292;
+transform:scale(1.3);
+}
+a{
+color:#000000;
+text-decoration: none;
+}
+a:hover{
+color:darkcyan;
+transform: scale(1.2);
+text-decoration: underline;
+}
+p{
+font-weight: bold;
+}
+
+
+***LOGIN PAGE HTML AND CSS:-***
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In Page</title>
+    <link rel="stylesheet" href="Style2.css">
+    <link rel="icon" href="Darebee1.webp">
+    <style>
+        body{
+            background-image: url('GYM7.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size:cover;
+        }
+        h1{
+            margin-top: 110px;
+        }
+    </style>
+</head>
+<body>
+    <h1 align='center' style="color:black;">LOG IN</h1>
+    <form method="post" action="End.html">
+        <div class="form">
+            <div class="opa">
+            <label for="UserName">Enter Your UserName:</label>
+            <input type="text" name="UserName" id="UserName" placeholder="UserName" required>
+            <label for="password">Enter Your Password:</label>
+            <input type="password" name="password" id="password" placeholder="Password" required>
+            <a href=""><button type="submit">Log In</button></a> 
+            <p>Don't have an account? Click here <a href='Signup.html'>Sign Up</a></p>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    text-decoration: underline ;
+}
+.form{
+background-color:rgba(192,192,192,0.3);
+text-align: center;
+margin:10px 400px 0 400px;
+color:white;
+border: 2px solid #301934;
+font-size: large;
+border-radius:50px;
+padding: 20px 20px;
+} 
+label{
+color:black;
+display: block;
+font-weight: bold;
+margin-top: 10px;
+margin-bottom: 5px;
+text-align: left;
+padding-left:  64px;
+}
+input{
+display: block;
+font-size: 15px;
+width: 80%;
+margin: auto;
+margin-bottom: 20px;
+}
+button{
+background-color: black;
+color: white;
+font-size: 25px;
+margin-top: 25px;
+margin-bottom: 10px;
+border: 2px solid #505050;
+border-radius: 100px;
+padding:3px;
+width:15%;
+}
+button:hover{
+background-color: #6ba292;
+transform:scale(1.3);
+}
+a{
+color:#000000;
+text-decoration: none;
+}
+a:hover{
+color:darkcyan;
+transform: scale(1.2);
+text-decoration: underline;
+}
+p{
+font-weight: bold;
+}
+
+
+***WORKOUT APPLICATION WEB PAGE HTML AND CSS:-***
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fitness Tracker</title>
+  <link rel="icon" href="Darebee1.webp"> 
+   <style>
+    body {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      background-image: url('GYM9.webp');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      margin: 0;
+      padding: 0;
+      color: white;
+    }
+    .container {
+      width: 60%;
+      margin: 20px auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 25px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      background-color:rgba(192,192,192,0.4);
+    }
+    h1 {
+      text-align: center;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    label {
+      margin:10px 20px 5px 20px;
+    }
+    input[type="text"],
+    input[type="number"],
+    select {
+      padding: 8px;
+      margin-bottom: 10px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    input[type="submit"] {
+      padding: 10px;
+      background-color: #4caf50;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+    fieldset{
+        border: 5px solid black;
+        margin-left: 75px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        background-color: rgba(48,25,52,0.6);
+        width: 80%;
+        border-radius: 25px;
+    }
+    input,.input,select,textarea{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom:  20px;
+        margin-top: 0;
+    }
+    textarea{
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1 style="font-size:40px;color: #42213d">Workout Planner Application</h1>
+  <fieldset>
+    <legend style="font-size: 25px;">Personal Details...</legend>
+  <form method="post" action="End.html">
+    <label for="name">Enter Your Name:</label>
+    <input type="text" name="name" id="name" placeholder="Enter your name" required>
+
+    <label for="num">Enter Your Number:</label>
+    <input type="number" name="num" id="num" placeholder="Enter your number" required>
+
+    <label for="Gender">Select Your Gender:</label>
+    <div class="input"><input type="radio" name="Gender" id="male" value="Male" style="margin-right: 1px;"> Male
+    <input type="radio" name="Gender" id="female" value="Female" style="margin-right:1px;"> Female
+    <input type="radio" name="Gender" id="others" value="Others" style="margin-right:1px;"> Others</div>
+
+    <label for="dob">Date of Birth:</label>
+    <input type="date" name="dob" id="dob" required>
+
+    <label for="age">Age:</label>
+    <input type="number" name="age" id="age" placeholder="Age" required>
+
+    <label for="height">Height:</label>
+    <input type="number" name="height" id="height" placeholder="Enter your height in feet" required>
+
+    <label for="weight">Weight:</label>
+    <input type="number" name="weight" id="weight" placeholder="Enter your weight in kgs" required>
+
+    <label for="categeory">Select Your Categeory for Workouts:</label>
+    <select name="categeory" id="categeory">
+        <option value="select" disabled selected>select</option>
+        <option value="beginner">Beginnner</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="experienced">Experienced</option>
+    </select>
+
+    <label for="exercise">Type of Exercise:</label>
+    <select id="exercise" name="exercise" required >
+      <option value="select" disabled selected>Select</option>
+      <option value="cardio">Cardio</option>
+      <option value="strength">Strength Training</option>
+      <option value="flexibility">Flexibility</option>
+      <option value="other">Other</option>
+    </select>
+
+    <label for="duration">Duration (minutes):</label>
+    <input type="number" id="duration" name="duration" min="1" required>
+
+    <label for="calories">Calories Do You Want To Burn:</label>
+    <input type="number" id="calories" name="calories" min="1" required placeholder="calories">
+
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date" required>
+
+    <label for="comments">Add any Information:</label>
+    <textarea maxlength="30" rows="5" cols="30" placeholder="Enter your message here..."></textarea>
+    <input type="submit" value="Submit">
+  </form>
+</fieldset>
+</div>
+
+</body>
+</html>
+
+
+***WORKOUT PAGE HTML AND CSS:-***
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workouts</title>
+    <link rel="icon" href="Workouts1.png">
+    <style>
+        body{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgba(192,192,192,0.5);
+        }
+        h1{
+            text-shadow: 2px 2px 2px #e74c3c;
+        }
+        h3{
+            text-align: center;
+        }
+        img{
+            margin-top: 20px;
+            margin-left: -20px;
+            height: 400px;
+            width: 300px;
+        }
+        img:hover{
+            transform: scale(1.05);
+            box-shadow: 2px 2px 2px #e74c3c;
+            cursor:pointer;
+        }
+        .container{
+            background-color: white;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: auto 30px;
+        }
+        figcaption{
+            margin-top: 10px;
+            margin-left: 80px;
+            color: #e74c3c;
+            font-weight: bold;
+            text-align: left;
+        }
+    ul{
+        font-size: medium;
+        margin-left:120px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 100px;
+    }
+    </style>
+</head>
+<body>
+    <h1>
+        <li>Here Are The Workouts As Per The Details Entered:</h1>
+    <div class="container">
+        <div class="flex-items"><figure><a href="https://darebee.com/workouts/daily-yoga-workout.html"><img src="Workouts2.png" alt="Yoga"></a><figcaption style="color:#e74c3c;">Yoga</figcaption></figure></div>
+        <div class="flex-items"><figure><a href="https://darebee.com/workouts/back-and-neck-pain-relief-workout.html"><img src="Back&neck.png" alt="Back"></a><figcaption>Back and Neck</figcaption></figure></div>
+        <div class="flex-items"><figure><a href="https://darebee.com/workouts/bone-strength-workout.html"><img src="Bone.png" alt="Bone"></a><figcaption>Bone Strength</figcaption></figure></div>
+        <div class="flex-items"><figure><a href="https://darebee.com/workouts/four-minute-plank-workout.html"><img src="Workout5.png" alt="Plank"></a><figcaption>Plank</figcaption></figure></div>
+        <div class="flex-items"><figure><a href="https://darebee.com/workouts/50-pushups-workout.html"><img src="Pushups.png" alt="Pushups"></a><figcaption>Pushups</figcaption></div>
+        <div class="flex-items"><figure><a href="https://darebee.com/workouts/swimmer-workout.html"><img src="Swimmer.png" alt="swimmer"></a><figcaption>Swimmers</figcaption></div>
+        <div class="flex-items"><figure><a href="https://darebee.com/workouts/chest-arms-and-core-workout.html"><img src="Chest.png" alt="Chest&Core"></a><figcaption>Chest & Core</figcaption></figure></div>
+        <div class="flex-items"><figure><a href="https://darebee.com/workouts/seated-cardio-workout.html"><img src="Cardio.png" alt="Cardio"></a><figcaption>Cardio</figcaption></figure></div>
+        <div class="flex-items"><figure><a href="https://darebee.com/workouts/wrist-mobility-workout.html"><img src="Wrist.png" alt="Wrist"></a><figcaption>Wrist Mobility</figcaption></figure></div>
+        <div class="flex-items"><figure><a href="https://darebee.com/workouts/master-of-abs-workout.html"><img src="Abs.png" alt="Abs"></a><figcaption>ABS</figcaption></figure></div>
+        <div class="flex-items"><figure><a href="https://darebee.com/workouts/push-workout.html"><img src="Push.png" alt="Push"></a><figcaption>Body Push</figcaption></figure></div>
+        <div class="flex-items"><figure><a href="https://darebee.com/workouts/regulator-workout.html"><img src="Regulator.png" alt="Regulator"></a><figcaption>Body Regulator</figcaption></figure></div>
+        <div class="flex-items"><figure><a href="https://darebee.com/workouts/biceps-only-workout.html"><img src="Biceps.png" alt="Biceps"></a><figcaption>Biceps</figcaption></figure></div>
+        <div class="flex-items"><figure><a href="https://darebee.com/workouts/heavyweight-workout.html"><img src="Weight.png" alt="weights"></a><figcaption>Heavy Weights</figcaption></figure></div>
+        <div class="flex-items"><figure><a href="https://darebee.com/workouts/stretched-workout.html"><img src="Stretch.png" alt="Stretching"></a><figcaption>Stretching</figcaption></figure></div>
+        <div class="flex-items"><figure><a href="https://darebee.com/workouts/strength-and-balance-workout.html"><img src="S&B.png" alt="S&B"></a><figcaption>Stretch & Balance</figcaption></figure></div>
+        <div class="flex-items"><figure><a href="https://darebee.com/workouts/spine-stability-workout.html"><img src="Spine.png" alt="Spine"></a><figcaption>Spine Stability</figcaption></figure></div>
+        <div class="flex-items"><figure><a href="https://darebee.com/workouts/meditation-workout.html"><img src="Meditation.png" alt="Meditation"></a><figcaption>Meditation</figcaption></figure></div>
+        <div class="flex-items"><figure><a href="https://darebee.com/workouts/stronger-legs-workout.html"><img src="Legs.png" alt="Legs"></a><figcaption>Strong Legs</figcaption></figure></div>
+        <div class="flex-items"><figure><a href="https://darebee.com/workouts/hip-strength-workout.html"><img src="Hip.png" alt="Hip Stretch"></a><figcaption>Hip Stretch</figcaption></figure></div>
+    </div>
+    t<ul type="square">
+    <li>For More Workouts&emsp;<a href="https://darebee.com/workouts.html">Click here</a></li>
+    <li>For Tracking Your Exercise &emsp13;<a href="Track.html">Click Here</a></li>
+    </ul>
+</body>
+</html>
+
+***TRACKER HTML AND CSS:-***
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="Darebee1.webp">
+  <style>
+body {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #98989c;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  padding-bottom: 10px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px 0;
+}
+
+.hero {
+  background-image: url('https://via.placeholder.com/1500x600');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h2 {
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ff6347;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e74c3c;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 100px;
+  background-attachment: fixed;
+  background-position: bottom;
+}
+
+form {
+  text-align: center;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form button {
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+form button {
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #e74c3c;
+}
+span{
+  font-size: 50px;
+  display: inline;
+  margin-top: 23px;
+}
+.logo{
+  background-color: #e74c3c;
+}
+img{
+  border-radius:50%;
+}
+header .container{
+  display: flex;
+}
+.align{
+  margin-top: 67px;
+}
+p::after{
+  font-size: 50px;
+}
+.foot{
+  margin-bottom:-145px;
+  font-size: 15px;
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 90%;
+}
+.container-timer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.timer{
+  animation: pulse 2s infinite alternate-reverse ease-in-out;
+  background-color:gainsboro;
+  color: #333;
+  font-size: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+  padding: 0 10px;
+  display: block;
+  width: 65%;
+  margin-left: 50px;
+}
+@keyframes pulse {
+  from{
+    transform: scale(0.7);
+  }  
+  to{
+    transform: scale(0.9);
+  }
+}
+h1[class='title']{
+  display: block;
+}
+.stopwatch{
+  display: block;
+}
+.contorls{
+  margin-left:5px;
+}
+
+
+button{
+    padding:10px 20px;
+    background-color: #e74c3c;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition:   background-color 0.3s ease-in-out;
+    margin-top:10px;
+}
+
+button:hover{
+    background-color:#ff6347;
+}
+.laps{
+  width:100%;
+}
+.lap-title{
+  height: 50px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow-y: auto;
+    max-height: 200px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+li{
+    padding: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+li:last-child{
+    border-bottom: none;
+}
+
+li span{
+    font-weight: 700;
+    font-size: medium;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <img src="Darebee5.jpg" alt="logo" height="100px" width="120px">&nbsp;&nbsp;
+      <span><span class="logo">DAREBEE</span> FitnessHub</span>
+    </div>
+  </header>
+
+  <main>
+    <section id="track">
+      <div class="container">
+        <h2 align="center">Track Your Exercise</h2>
+        <form>
+          <label for="exercise">Exercise:</label>
+          <input type="text" id="exercise" name="exercise" required>
+          <label for="duration">Duration:</label>
+          <input type="number" id="duration" name="duration" placeholder="in minutes" required>
+          <button type="submit" id="btn" onclick="startTimer()">Start Timer</button>
+        </form>
+      </div>
+    </section>
+      <div class="container-timer">
+        <div class="stopwatch">
+            <div class="timer">
+                <span id="minutes">00</span>:
+                <span id="seconds">00</span>:
+                <span id="milliseconds">00</span>
+            </div>
+            <div class="contorls">
+                <button id="startBtn">Start</button>
+                <button id="markUpBtn">Mark-Up</button>
+                <button id="pauseBtn">Pause</button>
+                <button id="resetBtn">Reset</button>
+            </div>
+            <div class="laps">
+                <h2 class="lap-title">Lap Timer:</h2>
+                <ul id="laplist"></ul>
+            </div>
+        </div>
+    </div>
+    
+    <script src="Timer.js"></script> 
+  </main>
+
+  <footer>
+    <p>&copy; Darebee FitnessHub</p>
+  </footer>
+  <script src="Timer.js"></script>
+</body>
+</html>
+
